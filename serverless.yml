@@ -1,4 +1,4 @@
-service: hustln_db
+service: hustln-db
 
 provider:
   name: aws
@@ -6,8 +6,8 @@ provider:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handler.baseball
     events:
       - http:
-        path: beer/hello
-        method: get
+          path: baseball
+          method: get
