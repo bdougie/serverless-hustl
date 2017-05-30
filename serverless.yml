@@ -3,11 +3,49 @@ service: hustln-db
 provider:
   name: aws
   runtime: nodejs6.10
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "dynamodb:*"
+      Resource: "arn:aws:dynamodb:*:*:table/hustlindb"
 
 functions:
   hello:
-    handler: handler.baseball
+    handler: handler.hello
+    description: hello world funciton to see if things are working
     events:
       - http:
-          path: baseball
+          path: hello
           method: get
+  seed:
+    handler: handler.seed
+    description: seed dynanomodb table with baseball games
+    events:
+      - http:
+          path: seed
+          method: post
+  getEvents:
+    handler: handler.getEvents
+    description: read dynanomodb table of baseball games
+    events:
+      - http:
+          path: games
+          method: get
+
+resources:
+  Resources:
+    DynamoDbTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        AttributeDefinitions:
+          -
+            AttributeName: id
+            AttributeType: S
+        KeySchema:
+          -
+            AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: hustlindb

@@ -1,0 +1,15 @@
+{
+  "name": "serverless-hustl",
+  "version": "0.0.1",
+  "description": "serverless api project to share bay area baseball games",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Douglas <hello@briandouglas.me>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.45.0",
+    "uuid": "3.0.1"
+  }
+}
