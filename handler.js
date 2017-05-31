@@ -34,12 +34,14 @@ module.exports.seed = (event, context, callback) => {
       if (err) {
         callback(err);
       }
-      callback(null, {
+      const response = {
         statusCode: 201,
         headers: {
           'Access-Control-Allow-Origin': '*'
         },
-      });
+      }
+
+      callback(null, response);
     });
   })
 }
@@ -54,22 +56,25 @@ module.exports.games = (event, context, callback) => {
       callback(err);
     }
 
-    callback(null, {
+    const response = {
       statusCode: 200,
       headers: {
         "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
         "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS 
       },
       count: data.Items.length,
-      data: data.Items
+      body: data.Items
+    };
 
-    });
+    callback(null, response);
   });
 }
 
 module.exports.today = (event, context, callback) => {
   const params = {
-    TableName: 'slshustl'
+    TableName: 'slshustl',
+    FilterExpression : 'started = :started',
+    ExpressionAttributeValues : {':started' : 'false'}
   }
 
   dynamodb.scan(params, (err, data) => {
@@ -79,15 +84,17 @@ module.exports.today = (event, context, callback) => {
     }
 
     const todaysGames = data.Items.filter(isToday)
-    callback(null, {
+    const response = {
       statusCode: 200,
       headers: {
         "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
         "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS 
       },
       todaysGameCount: todaysGames.length,
-      data: todaysGames,
-    });
+      body: todaysGames
+    };
+
+    callback(null, response);
   });
 
   function isToday(game) {
