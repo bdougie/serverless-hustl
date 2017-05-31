@@ -27,10 +27,17 @@ functions:
           method: post
   getHomeGames:
     handler: handler.getHomeGames
-    description: read dynanomodb table of baseball games
+    description: fetch all home games for baseball
     events:
       - http:
           path: games
+          method: get
+  isBaseballToday:
+    handler: handler.isBaseballToday
+    description: return just baseball games today
+    events:
+      - http:
+          path: today
           method: get
 
 resources:

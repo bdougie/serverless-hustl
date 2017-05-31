@@ -7,6 +7,7 @@ const uuid = require('uuid');
 const fs = require('fs');
 const contents = fs.readFileSync("baseball.json");
 const baseballs = JSON.parse(contents)
+const docClient = new AWS.DynamoDB.DocumentClient();
 
 module.exports.hello = (event, context, callback) => {
   const response = {
@@ -20,8 +21,6 @@ module.exports.hello = (event, context, callback) => {
 };
 
 module.exports.seed = (event, context, callback) => {
-  const docClient = new AWS.DynamoDB.DocumentClient();
-
   baseballs.forEach(function(data) {
     const {name, start_time, end_time, started, standard_start_time} = data;
     const item = {
@@ -48,7 +47,6 @@ module.exports.seed = (event, context, callback) => {
 }
 
 module.exports.getHomeGames = (event, context, callback) => {
-  const docClient = new AWS.DynamoDB.DocumentClient();
   const params = {
     TableName: 'slshustl'
   }
@@ -58,6 +56,29 @@ module.exports.getHomeGames = (event, context, callback) => {
       callback(err);
     }
 
-    callback(null, { homeGames:  data.Items });
+    callback(null, { count: data.Items.length, homeGames: data.Items });
   });
 }
+
+module.exports.isBaseballToday = (event, context, callback) => {
+  const params = {
+    TableName: 'slshustl'
+  }
+
+  docClient.scan(params, (err, data) => {
+
+    if (err) {
+      callback(err);
+    }
+
+    const todaysGames = data.Items.filter(isToday)
+    callback(null, { todaysGameCount: todaysGames.length, today: todaysGames });
+  });
+
+  function isToday(game) {
+    const today = new Date();
+    const gameTime = new Date(game.start_time);
+    return (today.toDateString() == gameTime.toDateString());
+  }
+}
+
