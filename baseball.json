@@ -1,1353 +1,1203 @@
 [
   {
-    "id": 1,
-    "opponent": "LA Angels",
-    "date": "2017-04-03",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.616Z",
-    "updated_at": "2017-04-26T16:53:40.616Z",
-    "schedule_id": 1,
-    "time": "2017-04-03 19:00:00"
-  }, {
-    "id": 2,
-    "opponent": "LA Angels",
-    "date": "2017-04-04",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.623Z",
-    "updated_at": "2017-04-26T16:53:40.623Z",
-    "schedule_id": 1,
-    "time": "2017-04-04 19:05:00"
-  }, {
-    "id": 3,
-    "opponent": "LA Angels",
-    "date": "2017-04-05",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.626Z",
-    "updated_at": "2017-04-26T16:53:40.626Z",
-    "schedule_id": 1,
-    "time": "2017-04-05 19:05:00"
-  }, {
-    "id": 4,
-    "opponent": "LA Angels",
-    "date": "2017-04-06",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.629Z",
-    "updated_at": "2017-04-26T16:53:40.629Z",
-    "schedule_id": 1,
-    "time": "2017-04-06 12:35:00"
-  }, {
-    "id": 5,
-    "opponent": "Houston",
-    "date": "2017-04-14",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.631Z",
-    "updated_at": "2017-04-26T16:53:40.631Z",
-    "schedule_id": 1,
-    "time": "2017-04-14 19:05:00"
-  }, {
-    "id": 6,
-    "opponent": "Houston",
-    "date": "2017-04-15",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.634Z",
-    "updated_at": "2017-04-26T16:53:40.634Z",
-    "schedule_id": 1,
-    "time": "2017-04-15 13:05:00"
-  }, {
-    "id": 7,
-    "opponent": "Houston",
-    "date": "2017-04-16",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.636Z",
-    "updated_at": "2017-04-26T16:53:40.636Z",
-    "schedule_id": 1,
-    "time": "2017-04-16 13:05:00"
-  }, {
-    "id": 8,
-    "opponent": "Texas",
-    "date": "2017-04-17",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.638Z",
-    "updated_at": "2017-04-26T16:53:40.638Z",
-    "schedule_id": 1,
-    "time": "2017-04-17 19:05:00"
-  }, {
-    "id": 9,
-    "opponent": "Texas",
-    "date": "2017-04-18",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.640Z",
-    "updated_at": "2017-04-26T16:53:40.640Z",
-    "schedule_id": 1,
-    "time": "2017-04-18 19:05:00"
-  }, {
-    "id": 10,
-    "opponent": "Texas",
-    "date": "2017-04-19",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.643Z",
-    "updated_at": "2017-04-26T16:53:40.643Z",
-    "schedule_id": 1,
-    "time": "2017-04-19 12:35:00"
-  }, {
-    "id": 11,
-    "opponent": "Detroit",
-    "date": "2017-05-05",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.645Z",
-    "updated_at": "2017-04-26T16:53:40.645Z",
-    "schedule_id": 1,
-    "time": "2017-05-05 19:05:00"
-  }, {
-    "id": 12,
-    "opponent": "Detroit",
-    "date": "2017-05-06",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.647Z",
-    "updated_at": "2017-04-26T16:53:40.647Z",
-    "schedule_id": 1,
-    "time": "2017-05-06 18:05:00"
-  }, {
-    "id": 13,
-    "opponent": "Detroit",
-    "date": "2017-05-07",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.650Z",
-    "updated_at": "2017-04-26T16:53:40.650Z",
-    "schedule_id": 1,
-    "time": "2017-05-07 13:05:00"
-  }, {
-    "id": 14,
-    "opponent": "LA Angels",
-    "date": "2017-05-08",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.652Z",
-    "updated_at": "2017-04-26T16:53:40.652Z",
-    "schedule_id": 1,
-    "time": "2017-05-08 19:05:00"
-  }, {
-    "id": 15,
-    "opponent": "LA Angels",
-    "date": "2017-05-09",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.655Z",
-    "updated_at": "2017-04-26T16:53:40.655Z",
-    "schedule_id": 1,
-    "time": "2017-05-09 19:05:00"
-  }, {
-    "id": 16,
-    "opponent": "LA Angels",
-    "date": "2017-05-10",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.657Z",
-    "updated_at": "2017-04-26T16:53:40.657Z",
-    "schedule_id": 1,
-    "time": "2017-05-10 12:35:00"
-  }, {
-    "id": 17,
-    "opponent": "Boston",
-    "date": "2017-05-18",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.660Z",
-    "updated_at": "2017-04-26T16:53:40.660Z",
-    "schedule_id": 1,
-    "time": "2017-05-18 19:05:00"
-  }, {
-    "id": 18,
-    "opponent": "Boston",
-    "date": "2017-05-19",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.663Z",
-    "updated_at": "2017-04-26T16:53:40.663Z",
-    "schedule_id": 1,
-    "time": "2017-05-19 18:35:00"
-  }, {
-    "id": 19,
-    "opponent": "Boston",
-    "date": "2017-05-20",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.666Z",
-    "updated_at": "2017-04-26T16:53:40.666Z",
-    "schedule_id": 1,
-    "time": "2017-05-20 13:05:00"
-  }, {
-    "id": 20,
-    "opponent": "Boston",
-    "date": "2017-05-21",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.669Z",
-    "updated_at": "2017-04-26T16:53:40.669Z",
-    "schedule_id": 1,
-    "time": "2017-05-21 13:05:00"
-  }, {
-    "id": 21,
-    "opponent": "Miami",
-    "date": "2017-05-23",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.672Z",
-    "updated_at": "2017-04-26T16:53:40.672Z",
-    "schedule_id": 1,
-    "time": "2017-05-23 19:05:00"
-  }, {
-    "id": 22,
-    "opponent": "Miami",
-    "date": "2017-05-24",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.674Z",
-    "updated_at": "2017-04-26T16:53:40.674Z",
-    "schedule_id": 1,
-    "time": "2017-05-24 12:35:00"
-  }, {
-    "id": 23,
-    "opponent": "Washington",
-    "date": "2017-06-02",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.676Z",
-    "updated_at": "2017-04-26T16:53:40.676Z",
-    "schedule_id": 1,
-    "time": "2017-06-02 19:05:00"
-  }, {
-    "id": 24,
-    "opponent": "Washington",
-    "date": "2017-06-03",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.678Z",
-    "updated_at": "2017-04-26T16:53:40.678Z",
-    "schedule_id": 1,
-    "time": "2017-06-03 13:05:00"
-  }, {
-    "id": 25,
-    "opponent": "Washington",
-    "date": "2017-06-04",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.680Z",
-    "updated_at": "2017-04-26T16:53:40.680Z",
-    "schedule_id": 1,
-    "time": "2017-06-04 13:05:00"
-  }, {
-    "id": 26,
-    "opponent": "Toronto",
-    "date": "2017-06-05",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.683Z",
-    "updated_at": "2017-04-26T16:53:40.683Z",
-    "schedule_id": 1,
-    "time": "2017-06-05 19:05:00"
-  }, {
-    "id": 27,
-    "opponent": "Toronto",
-    "date": "2017-06-06",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.685Z",
-    "updated_at": "2017-04-26T16:53:40.685Z",
-    "schedule_id": 1,
-    "time": "2017-06-06 19:05:00"
-  }, {
-    "id": 28,
-    "opponent": "Toronto",
-    "date": "2017-06-07",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.687Z",
-    "updated_at": "2017-04-26T16:53:40.687Z",
-    "schedule_id": 1,
-    "time": "2017-06-07 12:35:00"
-  }, {
-    "id": 29,
-    "opponent": "NY Yankees",
-    "date": "2017-06-15",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.691Z",
-    "updated_at": "2017-04-26T16:53:40.691Z",
-    "schedule_id": 1,
-    "time": "2017-06-15 19:05:00"
-  }, {
-    "id": 30,
-    "opponent": "NY Yankees",
-    "date": "2017-06-16",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.694Z",
-    "updated_at": "2017-04-26T16:53:40.694Z",
-    "schedule_id": 1,
-    "time": "2017-06-16 18:35:00"
-  }, {
-    "id": 31,
-    "opponent": "NY Yankees",
-    "date": "2017-06-17",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.698Z",
-    "updated_at": "2017-04-26T16:53:40.698Z",
-    "schedule_id": 1,
-    "time": "2017-06-17 13:05:00"
-  }, {
-    "id": 32,
-    "opponent": "NY Yankees",
-    "date": "2017-06-18",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.705Z",
-    "updated_at": "2017-04-26T16:53:40.705Z",
-    "schedule_id": 1,
-    "time": "2017-06-18 13:05:00"
-  }, {
-    "id": 33,
-    "opponent": "Houston",
-    "date": "2017-06-19",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.707Z",
-    "updated_at": "2017-04-26T16:53:40.707Z",
-    "schedule_id": 1,
-    "time": "2017-06-19 19:05:00"
-  }, {
-    "id": 34,
-    "opponent": "Houston",
-    "date": "2017-06-20",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.710Z",
-    "updated_at": "2017-04-26T16:53:40.710Z",
-    "schedule_id": 1,
-    "time": "2017-06-20 19:05:00"
-  }, {
-    "id": 35,
-    "opponent": "Houston",
-    "date": "2017-06-21",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.712Z",
-    "updated_at": "2017-04-26T16:53:40.712Z",
-    "schedule_id": 1,
-    "time": "2017-06-21 19:05:00"
-  }, {
-    "id": 36,
-    "opponent": "Houston",
-    "date": "2017-06-22",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.715Z",
-    "updated_at": "2017-04-26T16:53:40.715Z",
-    "schedule_id": 1,
-    "time": "2017-06-22 12:35:00"
-  }, {
-    "id": 37,
-    "opponent": "Atlanta",
-    "date": "2017-06-30",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.717Z",
-    "updated_at": "2017-04-26T16:53:40.717Z",
-    "schedule_id": 1,
-    "time": "2017-06-30 19:05:00"
-  }, {
-    "id": 38,
-    "opponent": "Atlanta",
-    "date": "2017-07-01",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.719Z",
-    "updated_at": "2017-04-26T16:53:40.719Z",
-    "schedule_id": 1,
-    "time": "2017-07-01 13:05:00"
-  }, {
-    "id": 39,
-    "opponent": "Atlanta",
-    "date": "2017-07-02",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.721Z",
-    "updated_at": "2017-04-26T16:53:40.721Z",
-    "schedule_id": 1,
-    "time": "2017-07-02 13:05:00"
-  }, {
-    "id": 40,
-    "opponent": "Chicago Sox",
-    "date": "2017-07-03",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.724Z",
-    "updated_at": "2017-04-26T16:53:40.724Z",
-    "schedule_id": 1,
-    "time": "2017-07-03 18:05:00"
-  }, {
-    "id": 41,
-    "opponent": "Chicago Sox",
-    "date": "2017-07-04",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.725Z",
-    "updated_at": "2017-04-26T16:53:40.725Z",
-    "schedule_id": 1,
-    "time": "2017-07-04 13:05:00"
-  }, {
-    "id": 42,
-    "opponent": "Chicago Sox",
-    "date": "2017-07-05",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.728Z",
-    "updated_at": "2017-04-26T16:53:40.728Z",
-    "schedule_id": 1,
-    "time": "2017-07-05 12:35:00"
-  }, {
-    "id": 43,
-    "opponent": "Cleveland",
-    "date": "2017-07-14",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.730Z",
-    "updated_at": "2017-04-26T16:53:40.730Z",
-    "schedule_id": 1,
-    "time": "2017-07-14 19:05:00"
-  }, {
-    "id": 44,
-    "opponent": "Cleveland",
-    "date": "2017-07-15",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.733Z",
-    "updated_at": "2017-04-26T16:53:40.733Z",
-    "schedule_id": 1,
-    "time": "2017-07-15 18:05:00"
-  }, {
-    "id": 45,
-    "opponent": "Cleveland",
-    "date": "2017-07-16",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.735Z",
-    "updated_at": "2017-04-26T16:53:40.735Z",
-    "schedule_id": 1,
-    "time": "2017-07-16 13:05:00"
-  }, {
-    "id": 46,
-    "opponent": "Tampa Bay",
-    "date": "2017-07-17",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.737Z",
-    "updated_at": "2017-04-26T16:53:40.737Z",
-    "schedule_id": 1,
-    "time": "2017-07-17 19:05:00"
-  }, {
-    "id": 47,
-    "opponent": "Tampa Bay",
-    "date": "2017-07-18",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.740Z",
-    "updated_at": "2017-04-26T16:53:40.740Z",
-    "schedule_id": 1,
-    "time": "2017-07-18 19:05:00"
-  }, {
-    "id": 48,
-    "opponent": "Tampa Bay",
-    "date": "2017-07-19",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.742Z",
-    "updated_at": "2017-04-26T16:53:40.742Z",
-    "schedule_id": 1,
-    "time": "2017-07-19 12:35:00"
-  }, {
-    "id": 49,
-    "opponent": "Minnesota",
-    "date": "2017-07-28",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.745Z",
-    "updated_at": "2017-04-26T16:53:40.745Z",
-    "schedule_id": 1,
-    "time": "2017-07-28 19:05:00"
-  }, {
-    "id": 50,
-    "opponent": "Minnesota",
-    "date": "2017-07-29",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.747Z",
-    "updated_at": "2017-04-26T16:53:40.747Z",
-    "schedule_id": 1,
-    "time": "2017-07-29 18:05:00"
-  }, {
-    "id": 51,
-    "opponent": "Minnesota",
-    "date": "2017-07-30",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.749Z",
-    "updated_at": "2017-04-26T16:53:40.749Z",
-    "schedule_id": 1,
-    "time": "2017-07-30 13:05:00"
-  }, {
-    "id": 52,
-    "opponent": "San Francisco",
-    "date": "2017-07-31",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.752Z",
-    "updated_at": "2017-04-26T16:53:40.752Z",
-    "schedule_id": 1,
-    "time": "2017-07-31 19:05:00"
-  }, {
-    "id": 53,
-    "opponent": "San Francisco",
-    "date": "2017-08-01",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.754Z",
-    "updated_at": "2017-04-26T16:53:40.754Z",
-    "schedule_id": 1,
-    "time": "2017-08-01 19:05:00"
-  }, {
-    "id": 54,
-    "opponent": "Baltimore",
-    "date": "2017-08-10",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.756Z",
-    "updated_at": "2017-04-26T16:53:40.756Z",
-    "schedule_id": 1,
-    "time": "2017-08-10 19:05:00"
-  }, {
-    "id": 55,
-    "opponent": "Baltimore",
-    "date": "2017-08-11",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.759Z",
-    "updated_at": "2017-04-26T16:53:40.759Z",
-    "schedule_id": 1,
-    "time": "2017-08-11 19:05:00"
-  }, {
-    "id": 56,
-    "opponent": "Baltimore",
-    "date": "2017-08-12",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.761Z",
-    "updated_at": "2017-04-26T16:53:40.761Z",
-    "schedule_id": 1,
-    "time": "2017-08-12 18:05:00"
-  }, {
-    "id": 57,
-    "opponent": "Baltimore",
-    "date": "2017-08-13",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.763Z",
-    "updated_at": "2017-04-26T16:53:40.763Z",
-    "schedule_id": 1,
-    "time": "2017-08-13 13:05:00"
-  }, {
-    "id": 58,
-    "opponent": "Kansas City",
-    "date": "2017-08-14",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.766Z",
-    "updated_at": "2017-04-26T16:53:40.766Z",
-    "schedule_id": 1,
-    "time": "2017-08-14 19:05:00"
-  }, {
-    "id": 59,
-    "opponent": "Kansas City",
-    "date": "2017-08-15",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.768Z",
-    "updated_at": "2017-04-26T16:53:40.768Z",
-    "schedule_id": 1,
-    "time": "2017-08-15 19:05:00"
-  }, {
-    "id": 60,
-    "opponent": "Kansas City",
-    "date": "2017-08-16",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.771Z",
-    "updated_at": "2017-04-26T16:53:40.771Z",
-    "schedule_id": 1,
-    "time": "2017-08-16 12:35:00"
-  }, {
-    "id": 61,
-    "opponent": "Texas",
-    "date": "2017-08-25",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.773Z",
-    "updated_at": "2017-04-26T16:53:40.773Z",
-    "schedule_id": 1,
-    "time": "2017-08-25 19:05:00"
-  }, {
-    "id": 62,
-    "opponent": "Texas",
-    "date": "2017-08-26",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.775Z",
-    "updated_at": "2017-04-26T16:53:40.775Z",
-    "schedule_id": 1,
-    "time": "2017-08-26 13:05:00"
-  }, {
-    "id": 63,
-    "opponent": "Texas",
-    "date": "2017-08-27",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.777Z",
-    "updated_at": "2017-04-26T16:53:40.777Z",
-    "schedule_id": 1,
-    "time": "2017-08-27 13:05:00"
-  }, {
-    "id": 64,
-    "opponent": "LA Angels",
-    "date": "2017-09-04",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.780Z",
-    "updated_at": "2017-04-26T16:53:40.780Z",
-    "schedule_id": 1,
-    "time": "2017-09-04 13:05:00"
-  }, {
-    "id": 65,
-    "opponent": "LA Angels",
-    "date": "2017-09-05",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.782Z",
-    "updated_at": "2017-04-26T16:53:40.782Z",
-    "schedule_id": 1,
-    "time": "2017-09-05 19:05:00"
-  }, {
-    "id": 66,
-    "opponent": "LA Angels",
-    "date": "2017-09-06",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.784Z",
-    "updated_at": "2017-04-26T16:53:40.784Z",
-    "schedule_id": 1,
-    "time": "2017-09-06 12:35:00"
-  }, {
-    "id": 67,
-    "opponent": "Houston",
-    "date": "2017-09-08",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.786Z",
-    "updated_at": "2017-04-26T16:53:40.786Z",
-    "schedule_id": 1,
-    "time": "2017-09-08 19:05:00"
-  }, {
-    "id": 68,
-    "opponent": "Houston",
-    "date": "2017-09-09",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.789Z",
-    "updated_at": "2017-04-26T16:53:40.789Z",
-    "schedule_id": 1,
-    "time": "2017-09-09 13:05:00"
-  }, {
-    "id": 69,
-    "opponent": "Houston",
-    "date": "2017-09-09",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.791Z",
-    "updated_at": "2017-04-26T16:53:40.791Z",
-    "schedule_id": 1,
-    "time": "2017-09-09 16:30:00"
-  }, {
-    "id": 70,
-    "opponent": "Houston",
-    "date": "2017-09-10",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.793Z",
-    "updated_at": "2017-04-26T16:53:40.793Z",
-    "schedule_id": 1,
-    "time": "2017-09-10 13:05:00"
-  }, {
-    "id": 71,
-    "opponent": "Texas",
-    "date": "2017-09-22",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.795Z",
-    "updated_at": "2017-04-26T16:53:40.795Z",
-    "schedule_id": 1,
-    "time": "2017-09-22 19:05:00"
-  }, {
-    "id": 72,
-    "opponent": "Texas",
-    "date": "2017-09-23",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.797Z",
-    "updated_at": "2017-04-26T16:53:40.797Z",
-    "schedule_id": 1,
-    "time": "2017-09-23 18:05:00"
-  }, {
-    "id": 73,
-    "opponent": "Texas",
-    "date": "2017-09-24",
-    "baseball_team_id": 1,
-    "created_at": "2017-04-26T16:53:40.799Z",
-    "updated_at": "2017-04-26T16:53:40.799Z",
-    "schedule_id": 1,
-    "time": "2017-09-24 13:05:00"
-  }, {
-    "id": 74,
-    "opponent": "Arizona",
-    "date": "2017-04-10",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.937Z",
-    "updated_at": "2017-04-26T16:53:40.937Z",
-    "schedule_id": 2,
-    "time": "2017-04-10 13:35:00"
-  }, {
-    "id": 75,
-    "opponent": "Arizona",
-    "date": "2017-04-11",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.939Z",
-    "updated_at": "2017-04-26T16:53:40.939Z",
-    "schedule_id": 2,
-    "time": "2017-04-11 19:15:00"
-  }, {
-    "id": 76,
-    "opponent": "Arizona",
-    "date": "2017-04-12",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.941Z",
-    "updated_at": "2017-04-26T16:53:40.941Z",
-    "schedule_id": 2,
-    "time": "2017-04-12 19:15:00"
-  }, {
-    "id": 77,
-    "opponent": "Colorado",
-    "date": "2017-04-13",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.944Z",
-    "updated_at": "2017-04-26T16:53:40.944Z",
-    "schedule_id": 2,
-    "time": "2017-04-13 19:15:00"
-  }, {
-    "id": 78,
-    "opponent": "Colorado",
-    "date": "2017-04-14",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.946Z",
-    "updated_at": "2017-04-26T16:53:40.946Z",
-    "schedule_id": 2,
-    "time": "2017-04-14 19:15:00"
-  }, {
-    "id": 79,
-    "opponent": "Colorado",
-    "date": "2017-04-15",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.948Z",
-    "updated_at": "2017-04-26T16:53:40.948Z",
-    "schedule_id": 2,
-    "time": "2017-04-15 13:05:00"
-  }, {
-    "id": 80,
-    "opponent": "Colorado",
-    "date": "2017-04-16",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.951Z",
-    "updated_at": "2017-04-26T16:53:40.951Z",
-    "schedule_id": 2,
-    "time": "2017-04-16 13:05:00"
-  }, {
-    "id": 81,
-    "opponent": "LA Dodgers",
-    "date": "2017-04-24",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.953Z",
-    "updated_at": "2017-04-26T16:53:40.953Z",
-    "schedule_id": 2,
-    "time": "2017-04-24 19:15:00"
-  }, {
-    "id": 82,
-    "opponent": "LA Dodgers",
-    "date": "2017-04-25",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.955Z",
-    "updated_at": "2017-04-26T16:53:40.955Z",
-    "schedule_id": 2,
-    "time": "2017-04-25 19:15:00"
-  }, {
-    "id": 83,
-    "opponent": "LA Dodgers",
-    "date": "2017-04-26",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.958Z",
-    "updated_at": "2017-04-26T16:53:40.958Z",
-    "schedule_id": 2,
-    "time": "2017-04-26 19:15:00"
-  }, {
-    "id": 84,
-    "opponent": "LA Dodgers",
-    "date": "2017-04-27",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.966Z",
-    "updated_at": "2017-04-26T16:53:40.966Z",
-    "schedule_id": 2,
-    "time": "2017-04-27 12:45:00"
-  }, {
-    "id": 85,
-    "opponent": "San Diego",
-    "date": "2017-04-28",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.976Z",
-    "updated_at": "2017-04-26T16:53:40.976Z",
-    "schedule_id": 2,
-    "time": "2017-04-28 19:15:00"
-  }, {
-    "id": 86,
-    "opponent": "San Diego",
-    "date": "2017-04-29",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.985Z",
-    "updated_at": "2017-04-26T16:53:40.985Z",
-    "schedule_id": 2,
-    "time": "2017-04-29 18:05:00"
-  }, {
-    "id": 87,
-    "opponent": "San Diego",
-    "date": "2017-04-30",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.988Z",
-    "updated_at": "2017-04-26T16:53:40.988Z",
-    "schedule_id": 2,
-    "time": "2017-04-30 13:05:00"
-  }, {
-    "id": 88,
-    "opponent": "LA Dodgers",
-    "date": "2017-05-15",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.991Z",
-    "updated_at": "2017-04-26T16:53:40.991Z",
-    "schedule_id": 2,
-    "time": "2017-05-15 19:15:00"
-  }, {
-    "id": 89,
-    "opponent": "LA Dodgers",
-    "date": "2017-05-16",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.993Z",
-    "updated_at": "2017-04-26T16:53:40.993Z",
-    "schedule_id": 2,
-    "time": "2017-05-16 19:15:00"
-  }, {
-    "id": 90,
-    "opponent": "LA Dodgers",
-    "date": "2017-05-17",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.996Z",
-    "updated_at": "2017-04-26T16:53:40.996Z",
-    "schedule_id": 2,
-    "time": "2017-05-17 12:45:00"
-  }, {
-    "id": 91,
-    "opponent": "Atlanta",
-    "date": "2017-05-26",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:40.999Z",
-    "updated_at": "2017-04-26T16:53:40.999Z",
-    "schedule_id": 2,
-    "time": "2017-05-26 19:15:00"
-  }, {
-    "id": 92,
-    "opponent": "Atlanta",
-    "date": "2017-05-27",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.001Z",
-    "updated_at": "2017-04-26T16:53:41.001Z",
-    "schedule_id": 2,
-    "time": "2017-05-27 19:05:00"
-  }, {
-    "id": 93,
-    "opponent": "Atlanta",
-    "date": "2017-05-28",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.004Z",
-    "updated_at": "2017-04-26T16:53:41.004Z",
-    "schedule_id": 2,
-    "time": "2017-05-28 13:05:00"
-  }, {
-    "id": 94,
-    "opponent": "Washington",
-    "date": "2017-05-29",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.006Z",
-    "updated_at": "2017-04-26T16:53:41.006Z",
-    "schedule_id": 2,
-    "time": "2017-05-29 13:05:00"
-  }, {
-    "id": 95,
-    "opponent": "Washington",
-    "date": "2017-05-30",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.009Z",
-    "updated_at": "2017-04-26T16:53:41.009Z",
-    "schedule_id": 2,
-    "time": "2017-05-30 19:15:00"
-  }, {
-    "id": 96,
-    "opponent": "Washington",
-    "date": "2017-05-31",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.012Z",
-    "updated_at": "2017-04-26T16:53:41.012Z",
-    "schedule_id": 2,
-    "time": "2017-05-31 19:15:00"
-  }, {
-    "id": 97,
-    "opponent": "Minnesota",
-    "date": "2017-06-09",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.014Z",
-    "updated_at": "2017-04-26T16:53:41.014Z",
-    "schedule_id": 2,
-    "time": "2017-06-09 19:15:00"
-  }, {
-    "id": 98,
-    "opponent": "Minnesota",
-    "date": "2017-06-10",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.016Z",
-    "updated_at": "2017-04-26T16:53:41.016Z",
-    "schedule_id": 2,
-    "time": "2017-06-10 13:05:00"
-  }, {
-    "id": 99,
-    "opponent": "Minnesota",
-    "date": "2017-06-11",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.019Z",
-    "updated_at": "2017-04-26T16:53:41.019Z",
-    "schedule_id": 2,
-    "time": "2017-06-11 13:05:00"
-  }, {
-    "id": 100,
-    "opponent": "Kansas City",
-    "date": "2017-06-13",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.021Z",
-    "updated_at": "2017-04-26T16:53:41.021Z",
-    "schedule_id": 2,
-    "time": "2017-06-13 19:15:00"
-  }, {
-    "id": 101,
-    "opponent": "Kansas City",
-    "date": "2017-06-14",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.023Z",
-    "updated_at": "2017-04-26T16:53:41.023Z",
-    "schedule_id": 2,
-    "time": "2017-06-14 12:45:00"
-  }, {
-    "id": 102,
-    "opponent": "NY Mets",
-    "date": "2017-06-23",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.025Z",
-    "updated_at": "2017-04-26T16:53:41.025Z",
-    "schedule_id": 2,
-    "time": "2017-06-23 19:15:00"
-  }, {
-    "id": 103,
-    "opponent": "NY Mets",
-    "date": "2017-06-24",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.027Z",
-    "updated_at": "2017-04-26T16:53:41.027Z",
-    "schedule_id": 2,
-    "time": "2017-06-24 16:15:00"
-  }, {
-    "id": 104,
-    "opponent": "NY Mets",
-    "date": "2017-06-25",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.030Z",
-    "updated_at": "2017-04-26T16:53:41.030Z",
-    "schedule_id": 2,
-    "time": "2017-06-25 13:05:00"
-  }, {
-    "id": 105,
-    "opponent": "Colorado",
-    "date": "2017-06-26",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.032Z",
-    "updated_at": "2017-04-26T16:53:41.032Z",
-    "schedule_id": 2,
-    "time": "2017-06-26 19:15:00"
-  }, {
-    "id": 106,
-    "opponent": "Colorado",
-    "date": "2017-06-27",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.034Z",
-    "updated_at": "2017-04-26T16:53:41.034Z",
-    "schedule_id": 2,
-    "time": "2017-06-27 19:15:00"
-  }, {
-    "id": 107,
-    "opponent": "Colorado",
-    "date": "2017-06-28",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.037Z",
-    "updated_at": "2017-04-26T16:53:41.037Z",
-    "schedule_id": 2,
-    "time": "2017-06-28 12:45:00"
-  }, {
-    "id": 108,
-    "opponent": "Miami",
-    "date": "2017-07-07",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.039Z",
-    "updated_at": "2017-04-26T16:53:41.039Z",
-    "schedule_id": 2,
-    "time": "2017-07-07 19:15:00"
-  }, {
-    "id": 109,
-    "opponent": "Miami",
-    "date": "2017-07-08",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.042Z",
-    "updated_at": "2017-04-26T16:53:41.042Z",
-    "schedule_id": 2,
-    "time": "2017-07-08 19:05:00"
-  }, {
-    "id": 110,
-    "opponent": "Miami",
-    "date": "2017-07-09",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.044Z",
-    "updated_at": "2017-04-26T16:53:41.044Z",
-    "schedule_id": 2,
-    "time": "2017-07-09 13:05:00"
-  }, {
-    "id": 111,
-    "opponent": "Cleveland",
-    "date": "2017-07-17",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.047Z",
-    "updated_at": "2017-04-26T16:53:41.047Z",
-    "schedule_id": 2,
-    "time": "2017-07-17 19:15:00"
-  }, {
-    "id": 112,
-    "opponent": "Cleveland",
-    "date": "2017-07-18",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.050Z",
-    "updated_at": "2017-04-26T16:53:41.050Z",
-    "schedule_id": 2,
-    "time": "2017-07-18 19:15:00"
-  }, {
-    "id": 113,
-    "opponent": "Cleveland",
-    "date": "2017-07-19",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.053Z",
-    "updated_at": "2017-04-26T16:53:41.053Z",
-    "schedule_id": 2,
-    "time": "2017-07-19 12:45:00"
-  }, {
-    "id": 114,
-    "opponent": "San Diego",
-    "date": "2017-07-20",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.055Z",
-    "updated_at": "2017-04-26T16:53:41.055Z",
-    "schedule_id": 2,
-    "time": "2017-07-20 19:15:00"
-  }, {
-    "id": 115,
-    "opponent": "San Diego",
-    "date": "2017-07-21",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.058Z",
-    "updated_at": "2017-04-26T16:53:41.058Z",
-    "schedule_id": 2,
-    "time": "2017-07-21 19:15:00"
-  }, {
-    "id": 116,
-    "opponent": "San Diego",
-    "date": "2017-07-22",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.061Z",
-    "updated_at": "2017-04-26T16:53:41.061Z",
-    "schedule_id": 2,
-    "time": "2017-07-22 13:05:00"
-  }, {
-    "id": 117,
-    "opponent": "San Diego",
-    "date": "2017-07-23",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.064Z",
-    "updated_at": "2017-04-26T16:53:41.064Z",
-    "schedule_id": 2,
-    "time": "2017-07-23 13:05:00"
-  }, {
-    "id": 118,
-    "opponent": "Pittsburgh",
-    "date": "2017-07-24",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.066Z",
-    "updated_at": "2017-04-26T16:53:41.066Z",
-    "schedule_id": 2,
-    "time": "2017-07-24 19:15:00"
-  }, {
-    "id": 119,
-    "opponent": "Pittsburgh",
-    "date": "2017-07-25",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.071Z",
-    "updated_at": "2017-04-26T16:53:41.071Z",
-    "schedule_id": 2,
-    "time": "2017-07-25 19:15:00"
-  }, {
-    "id": 120,
-    "opponent": "Pittsburgh",
-    "date": "2017-07-26",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.074Z",
-    "updated_at": "2017-04-26T16:53:41.074Z",
-    "schedule_id": 2,
-    "time": "2017-07-26 12:45:00"
-  }, {
-    "id": 121,
-    "opponent": "Oakland",
-    "date": "2017-08-02",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.077Z",
-    "updated_at": "2017-04-26T16:53:41.077Z",
-    "schedule_id": 2,
-    "time": "2017-08-02 19:15:00"
-  }, {
-    "id": 122,
-    "opponent": "Oakland",
-    "date": "2017-08-03",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.079Z",
-    "updated_at": "2017-04-26T16:53:41.079Z",
-    "schedule_id": 2,
-    "time": "2017-08-03 19:15:00"
-  }, {
-    "id": 123,
-    "opponent": "Arizona",
-    "date": "2017-08-04",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.082Z",
-    "updated_at": "2017-04-26T16:53:41.082Z",
-    "schedule_id": 2,
-    "time": "2017-08-04 19:15:00"
-  }, {
-    "id": 124,
-    "opponent": "Arizona",
-    "date": "2017-08-05",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.084Z",
-    "updated_at": "2017-04-26T16:53:41.084Z",
-    "schedule_id": 2,
-    "time": "2017-08-05 18:05:00"
-  }, {
-    "id": 125,
-    "opponent": "Arizona",
-    "date": "2017-08-06",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.086Z",
-    "updated_at": "2017-04-26T16:53:41.086Z",
-    "schedule_id": 2,
-    "time": "2017-08-06 13:05:00"
-  }, {
-    "id": 126,
-    "opponent": "Chicago Cubs",
-    "date": "2017-08-07",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.089Z",
-    "updated_at": "2017-04-26T16:53:41.089Z",
-    "schedule_id": 2,
-    "time": "2017-08-07 19:15:00"
-  }, {
-    "id": 127,
-    "opponent": "Chicago Cubs",
-    "date": "2017-08-08",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.091Z",
-    "updated_at": "2017-04-26T16:53:41.091Z",
-    "schedule_id": 2,
-    "time": "2017-08-08 19:15:00"
-  }, {
-    "id": 128,
-    "opponent": "Chicago Cubs",
-    "date": "2017-08-09",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.093Z",
-    "updated_at": "2017-04-26T16:53:41.093Z",
-    "schedule_id": 2,
-    "time": "2017-08-09 12:45:00"
-  }, {
-    "id": 129,
-    "opponent": "Philadelphia",
-    "date": "2017-08-17",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.096Z",
-    "updated_at": "2017-04-26T16:53:41.096Z",
-    "schedule_id": 2,
-    "time": "2017-08-17 19:15:00"
-  }, {
-    "id": 130,
-    "opponent": "Philadelphia",
-    "date": "2017-08-18",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.098Z",
-    "updated_at": "2017-04-26T16:53:41.098Z",
-    "schedule_id": 2,
-    "time": "2017-08-18 19:15:00"
-  }, {
-    "id": 131,
-    "opponent": "Philadelphia",
-    "date": "2017-08-19",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.101Z",
-    "updated_at": "2017-04-26T16:53:41.101Z",
-    "schedule_id": 2,
-    "time": "2017-08-19 18:05:00"
-  }, {
-    "id": 132,
-    "opponent": "Philadelphia",
-    "date": "2017-08-20",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.106Z",
-    "updated_at": "2017-04-26T16:53:41.106Z",
-    "schedule_id": 2,
-    "time": "2017-08-20 13:05:00"
-  }, {
-    "id": 133,
-    "opponent": "Milwaukee",
-    "date": "2017-08-21",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.109Z",
-    "updated_at": "2017-04-26T16:53:41.109Z",
-    "schedule_id": 2,
-    "time": "2017-08-21 19:15:00"
-  }, {
-    "id": 134,
-    "opponent": "Milwaukee",
-    "date": "2017-08-22",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.111Z",
-    "updated_at": "2017-04-26T16:53:41.111Z",
-    "schedule_id": 2,
-    "time": "2017-08-22 19:15:00"
-  }, {
-    "id": 135,
-    "opponent": "Milwaukee",
-    "date": "2017-08-23",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.113Z",
-    "updated_at": "2017-04-26T16:53:41.113Z",
-    "schedule_id": 2,
-    "time": "2017-08-23 12:45:00"
-  }, {
-    "id": 136,
-    "opponent": "St. Louis",
-    "date": "2017-08-31",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.116Z",
-    "updated_at": "2017-04-26T16:53:41.116Z",
-    "schedule_id": 2,
-    "time": "2017-08-31 19:15:00"
-  }, {
-    "id": 137,
-    "opponent": "St. Louis",
-    "date": "2017-09-01",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.118Z",
-    "updated_at": "2017-04-26T16:53:41.118Z",
-    "schedule_id": 2,
-    "time": "2017-09-01 19:15:00"
-  }, {
-    "id": 138,
-    "opponent": "St. Louis",
-    "date": "2017-09-02",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.120Z",
-    "updated_at": "2017-04-26T16:53:41.120Z",
-    "schedule_id": 2,
-    "time": "2017-09-02 13:05:00"
-  }, {
-    "id": 139,
-    "opponent": "St. Louis",
-    "date": "2017-09-03",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.123Z",
-    "updated_at": "2017-04-26T16:53:41.123Z",
-    "schedule_id": 2,
-    "time": "2017-09-03 13:05:00"
-  }, {
-    "id": 140,
-    "opponent": "LA Dodgers",
-    "date": "2017-09-11",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.125Z",
-    "updated_at": "2017-04-26T16:53:41.125Z",
-    "schedule_id": 2,
-    "time": "2017-09-11 19:15:00"
-  }, {
-    "id": 141,
-    "opponent": "LA Dodgers",
-    "date": "2017-09-12",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.127Z",
-    "updated_at": "2017-04-26T16:53:41.127Z",
-    "schedule_id": 2,
-    "time": "2017-09-12 19:15:00"
-  }, {
-    "id": 142,
-    "opponent": "LA Dodgers",
-    "date": "2017-09-13",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.130Z",
-    "updated_at": "2017-04-26T16:53:41.130Z",
-    "schedule_id": 2,
-    "time": "2017-09-13 19:15:00"
-  }, {
-    "id": 143,
-    "opponent": "Arizona",
-    "date": "2017-09-15",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.132Z",
-    "updated_at": "2017-04-26T16:53:41.132Z",
-    "schedule_id": 2,
-    "time": "2017-09-15 19:15:00"
-  }, {
-    "id": 144,
-    "opponent": "Arizona",
-    "date": "2017-09-16",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.134Z",
-    "updated_at": "2017-04-26T16:53:41.134Z",
-    "schedule_id": 2,
-    "time": "2017-09-16 18:05:00"
-  }, {
-    "id": 145,
-    "opponent": "Arizona",
-    "date": "2017-09-17",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.136Z",
-    "updated_at": "2017-04-26T16:53:41.136Z",
-    "schedule_id": 2,
-    "time": "2017-09-17 13:05:00"
-  }, {
-    "id": 146,
-    "opponent": "Colorado",
-    "date": "2017-09-19",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.138Z",
-    "updated_at": "2017-04-26T16:53:41.138Z",
-    "schedule_id": 2,
-    "time": "2017-09-19 19:15:00"
-  }, {
-    "id": 147,
-    "opponent": "Colorado",
-    "date": "2017-09-20",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.141Z",
-    "updated_at": "2017-04-26T16:53:41.141Z",
-    "schedule_id": 2,
-    "time": "2017-09-20 12:45:00"
-  }, {
-    "id": 148,
-    "opponent": "San Diego",
-    "date": "2017-09-29",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.144Z",
-    "updated_at": "2017-04-26T16:53:41.144Z",
-    "schedule_id": 2,
-    "time": "2017-09-29 19:15:00"
-  }, {
-    "id": 149,
-    "opponent": "San Diego",
-    "date": "2017-09-30",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.147Z",
-    "updated_at": "2017-04-26T16:53:41.147Z",
-    "schedule_id": 2,
-    "time": "2017-09-30 13:05:00"
-  }, {
-    "id": 150,
-    "opponent": "San Diego",
-    "date": "2017-10-01",
-    "baseball_team_id": 2,
-    "created_at": "2017-04-26T16:53:41.149Z",
-    "updated_at": "2017-04-26T16:53:41.149Z",
-    "schedule_id": 2,
-    "time": "2017-10-01 12:05:00"
-  }
+		"id": 4,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-04-03 19:00:00",
+		"end_time": "2017-04-03T22:00:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:00"
+	}, {
+		"id": 5,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-04-04 19:05:00",
+		"end_time": "2017-04-04T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 6,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-04-05 19:05:00",
+		"end_time": "2017-04-05T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 7,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-04-06 12:35:00",
+		"end_time": "2017-04-06T15:35:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 8,
+		"name": "Oakland v Houston",
+		"start_time": "2017-04-14 19:05:00",
+		"end_time": "2017-04-14T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 9,
+		"name": "Oakland v Houston",
+		"start_time": "2017-04-15 13:05:00",
+		"end_time": "2017-04-15T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 10,
+		"name": "Oakland v Houston",
+		"start_time": "2017-04-16 13:05:00",
+		"end_time": "2017-04-16T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 11,
+		"name": "Oakland v Texas",
+		"start_time": "2017-04-17 19:05:00",
+		"end_time": "2017-04-17T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 12,
+		"name": "Oakland v Texas",
+		"start_time": "2017-04-18 19:05:00",
+		"end_time": "2017-04-18T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 13,
+		"name": "Oakland v Texas",
+		"start_time": "2017-04-19 12:35:00",
+		"end_time": "2017-04-19T15:35:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 14,
+		"name": "Oakland v Detroit",
+		"start_time": "2017-05-05 19:05:00",
+		"end_time": "2017-05-05T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 15,
+		"name": "Oakland v Detroit",
+		"start_time": "2017-05-06 18:05:00",
+		"end_time": "2017-05-06T21:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 16,
+		"name": "Oakland v Detroit",
+		"start_time": "2017-05-07 13:05:00",
+		"end_time": "2017-05-07T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 17,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-05-08 19:05:00",
+		"end_time": "2017-05-08T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 18,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-05-09 19:05:00",
+		"end_time": "2017-05-09T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 19,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-05-10 12:35:00",
+		"end_time": "2017-05-10T15:35:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 20,
+		"name": "Oakland v Boston",
+		"start_time": "2017-05-18 19:05:00",
+		"end_time": "2017-05-18T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 21,
+		"name": "Oakland v Boston",
+		"start_time": "2017-05-19 18:35:00",
+		"end_time": "2017-05-19T21:35:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 6:35"
+	}, {
+		"id": 22,
+		"name": "Oakland v Boston",
+		"start_time": "2017-05-20 13:05:00",
+		"end_time": "2017-05-20T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 23,
+		"name": "Oakland v Boston",
+		"start_time": "2017-05-21 13:05:00",
+		"end_time": "2017-05-21T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 24,
+		"name": "Oakland v Miami",
+		"start_time": "2017-05-23 19:05:00",
+		"end_time": "2017-05-23T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 25,
+		"name": "Oakland v Miami",
+		"start_time": "2017-05-24 12:35:00",
+		"end_time": "2017-05-24T15:35:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 26,
+		"name": "Oakland v Washington",
+		"start_time": "2017-06-02 19:05:00",
+		"end_time": "2017-06-02T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 27,
+		"name": "Oakland v Washington",
+		"start_time": "2017-06-03 13:05:00",
+		"end_time": "2017-06-03T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 28,
+		"name": "Oakland v Washington",
+		"start_time": "2017-06-04 13:05:00",
+		"end_time": "2017-06-04T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 29,
+		"name": "Oakland v Toronto",
+		"start_time": "2017-06-05 19:05:00",
+		"end_time": "2017-06-05T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 30,
+		"name": "Oakland v Toronto",
+		"start_time": "2017-06-06 19:05:00",
+		"end_time": "2017-06-06T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 31,
+		"name": "Oakland v Toronto",
+		"start_time": "2017-06-07 12:35:00",
+		"end_time": "2017-06-07T15:35:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 32,
+		"name": "Oakland v NY Yankees",
+		"start_time": "2017-06-15 19:05:00",
+		"end_time": "2017-06-15T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 33,
+		"name": "Oakland v NY Yankees",
+		"start_time": "2017-06-16 18:35:00",
+		"end_time": "2017-06-16T21:35:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:35"
+	}, {
+		"id": 34,
+		"name": "Oakland v NY Yankees",
+		"start_time": "2017-06-17 13:05:00",
+		"end_time": "2017-06-17T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 35,
+		"name": "Oakland v NY Yankees",
+		"start_time": "2017-06-18 13:05:00",
+		"end_time": "2017-06-18T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 36,
+		"name": "Oakland v Houston",
+		"start_time": "2017-06-19 19:05:00",
+		"end_time": "2017-06-19T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 37,
+		"name": "Oakland v Houston",
+		"start_time": "2017-06-20 19:05:00",
+		"end_time": "2017-06-20T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 38,
+		"name": "Oakland v Houston",
+		"start_time": "2017-06-21 19:05:00",
+		"end_time": "2017-06-21T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 39,
+		"name": "Oakland v Houston",
+		"start_time": "2017-06-22 12:35:00",
+		"end_time": "2017-06-22T15:35:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 40,
+		"name": "Oakland v Atlanta",
+		"start_time": "2017-06-30 19:05:00",
+		"end_time": "2017-06-30T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 41,
+		"name": "Oakland v Atlanta",
+		"start_time": "2017-07-01 13:05:00",
+		"end_time": "2017-07-01T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 42,
+		"name": "Oakland v Atlanta",
+		"start_time": "2017-07-02 13:05:00",
+		"end_time": "2017-07-02T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 43,
+		"name": "Oakland v Chicago Sox",
+		"start_time": "2017-07-03 18:05:00",
+		"end_time": "2017-07-03T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 44,
+		"name": "Oakland v Chicago Sox",
+		"start_time": "2017-07-04 13:05:00",
+		"end_time": "2017-07-04T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 45,
+		"name": "Oakland v Chicago Sox",
+		"start_time": "2017-07-05 12:35:00",
+		"end_time": "2017-07-05T15:35:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 46,
+		"name": "Oakland v Cleveland",
+		"start_time": "2017-07-14 19:05:00",
+		"end_time": "2017-07-14T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 47,
+		"name": "Oakland v Cleveland",
+		"start_time": "2017-07-15 18:05:00",
+		"end_time": "2017-07-15T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 48,
+		"name": "Oakland v Cleveland",
+		"start_time": "2017-07-16 13:05:00",
+		"end_time": "2017-07-16T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 49,
+		"name": "Oakland v Tampa Bay",
+		"start_time": "2017-07-17 19:05:00",
+		"end_time": "2017-07-17T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 50,
+		"name": "Oakland v Tampa Bay",
+		"start_time": "2017-07-18 19:05:00",
+		"end_time": "2017-07-18T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 51,
+		"name": "Oakland v Tampa Bay",
+		"start_time": "2017-07-19 12:35:00",
+		"end_time": "2017-07-19T15:35:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 52,
+		"name": "Oakland v Minnesota",
+		"start_time": "2017-07-28 19:05:00",
+		"end_time": "2017-07-28T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 53,
+		"name": "Oakland v Minnesota",
+		"start_time": "2017-07-29 18:05:00",
+		"end_time": "2017-07-29T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 54,
+		"name": "Oakland v Minnesota",
+		"start_time": "2017-07-30 13:05:00",
+		"end_time": "2017-07-30T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 55,
+		"name": "Oakland v San Francisco",
+		"start_time": "2017-07-31 19:05:00",
+		"end_time": "2017-07-31T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 56,
+		"name": "Oakland v San Francisco",
+		"start_time": "2017-08-01 19:05:00",
+		"end_time": "2017-08-01T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 57,
+		"name": "Oakland v Baltimore",
+		"start_time": "2017-08-10 19:05:00",
+		"end_time": "2017-08-10T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 58,
+		"name": "Oakland v Baltimore",
+		"start_time": "2017-08-11 19:05:00",
+		"end_time": "2017-08-11T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 59,
+		"name": "Oakland v Baltimore",
+		"start_time": "2017-08-12 18:05:00",
+		"end_time": "2017-08-12T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 60,
+		"name": "Oakland v Baltimore",
+		"start_time": "2017-08-13 13:05:00",
+		"end_time": "2017-08-13T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 61,
+		"name": "Oakland v Kansas City",
+		"start_time": "2017-08-14 19:05:00",
+		"end_time": "2017-08-14T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 62,
+		"name": "Oakland v Kansas City",
+		"start_time": "2017-08-15 19:05:00",
+		"end_time": "2017-08-15T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 63,
+		"name": "Oakland v Kansas City",
+		"start_time": "2017-08-16 12:35:00",
+		"end_time": "2017-08-16T15:35:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 64,
+		"name": "Oakland v Texas",
+		"start_time": "2017-08-25 19:05:00",
+		"end_time": "2017-08-25T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 65,
+		"name": "Oakland v Texas",
+		"start_time": "2017-08-26 13:05:00",
+		"end_time": "2017-08-26T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 66,
+		"name": "Oakland v Texas",
+		"start_time": "2017-08-27 13:05:00",
+		"end_time": "2017-08-27T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 67,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-09-04 13:05:00",
+		"end_time": "2017-09-04T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 68,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-09-05 19:05:00",
+		"end_time": "2017-09-05T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 69,
+		"name": "Oakland v LA Angels",
+		"start_time": "2017-09-06 12:35:00",
+		"end_time": "2017-09-06T15:35:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:35"
+	}, {
+		"id": 70,
+		"name": "Oakland v Houston",
+		"start_time": "2017-09-08 19:05:00",
+		"end_time": "2017-09-08T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 71,
+		"name": "Oakland v Houston",
+		"start_time": "2017-09-09 13:05:00",
+		"end_time": "2017-09-09T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 72,
+		"name": "Oakland v Houston",
+		"start_time": "2017-09-09 16:30:00",
+		"end_time": "2017-09-09T19:30:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 4:30"
+	}, {
+		"id": 73,
+		"name": "Oakland v Houston",
+		"start_time": "2017-09-10 13:05:00",
+		"end_time": "2017-09-10T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 74,
+		"name": "Oakland v Texas",
+		"start_time": "2017-09-22 19:05:00",
+		"end_time": "2017-09-22T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 75,
+		"name": "Oakland v Texas",
+		"start_time": "2017-09-23 18:05:00",
+		"end_time": "2017-09-23T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 76,
+		"name": "Oakland v Texas",
+		"start_time": "2017-09-24 13:05:00",
+		"end_time": "2017-09-24T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 77,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-04-10 13:35:00",
+		"end_time": "2017-04-10T16:35:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:35"
+	}, {
+		"id": 78,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-04-11 19:15:00",
+		"end_time": "2017-04-11T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 79,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-04-12 19:15:00",
+		"end_time": "2017-04-12T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 80,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-04-13 19:15:00",
+		"end_time": "2017-04-13T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 81,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-04-14 19:15:00",
+		"end_time": "2017-04-14T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 82,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-04-15 13:05:00",
+		"end_time": "2017-04-15T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 83,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-04-16 13:05:00",
+		"end_time": "2017-04-16T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 84,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-04-24 19:15:00",
+		"end_time": "2017-04-24T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 85,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-04-25 19:15:00",
+		"end_time": "2017-04-25T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 86,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-04-26 19:15:00",
+		"end_time": "2017-04-26T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 87,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-04-27 12:45:00",
+		"end_time": "2017-04-27T15:45:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 88,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-04-28 19:15:00",
+		"end_time": "2017-04-28T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 89,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-04-29 18:05:00",
+		"end_time": "2017-04-29T21:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 90,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-04-30 13:05:00",
+		"end_time": "2017-04-30T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 91,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-05-15 19:15:00",
+		"end_time": "2017-05-15T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 92,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-05-16 19:15:00",
+		"end_time": "2017-05-16T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 93,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-05-17 12:45:00",
+		"end_time": "2017-05-17T15:45:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 94,
+		"name": "San Francisco v Atlanta",
+		"start_time": "2017-05-26 19:15:00",
+		"end_time": "2017-05-26T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 95,
+		"name": "San Francisco v Atlanta",
+		"start_time": "2017-05-27 19:05:00",
+		"end_time": "2017-05-27T22:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 96,
+		"name": "San Francisco v Atlanta",
+		"start_time": "2017-05-28 13:05:00",
+		"end_time": "2017-05-28T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 97,
+		"name": "San Francisco v Washington",
+		"start_time": "2017-05-29 13:05:00",
+		"end_time": "2017-05-29T16:05:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 98,
+		"name": "San Francisco v Washington",
+		"start_time": "2017-05-30 19:15:00",
+		"end_time": "2017-05-30T22:15:00+00:00",
+		"started": true,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 99,
+		"name": "San Francisco v Washington",
+		"start_time": "2017-05-31 19:15:00",
+		"end_time": "2017-05-31T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 100,
+		"name": "San Francisco v Minnesota",
+		"start_time": "2017-06-09 19:15:00",
+		"end_time": "2017-06-09T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 101,
+		"name": "San Francisco v Minnesota",
+		"start_time": "2017-06-10 13:05:00",
+		"end_time": "2017-06-10T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 102,
+		"name": "San Francisco v Minnesota",
+		"start_time": "2017-06-11 13:05:00",
+		"end_time": "2017-06-11T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 103,
+		"name": "San Francisco v Kansas City",
+		"start_time": "2017-06-13 19:15:00",
+		"end_time": "2017-06-13T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 104,
+		"name": "San Francisco v Kansas City",
+		"start_time": "2017-06-14 12:45:00",
+		"end_time": "2017-06-14T15:45:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 105,
+		"name": "San Francisco v NY Mets",
+		"start_time": "2017-06-23 19:15:00",
+		"end_time": "2017-06-23T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 106,
+		"name": "San Francisco v NY Mets",
+		"start_time": "2017-06-24 16:15:00",
+		"end_time": "2017-06-24T19:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 4:15"
+	}, {
+		"id": 107,
+		"name": "San Francisco v NY Mets",
+		"start_time": "2017-06-25 13:05:00",
+		"end_time": "2017-06-25T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 108,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-06-26 19:15:00",
+		"end_time": "2017-06-26T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 109,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-06-27 19:15:00",
+		"end_time": "2017-06-27T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 110,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-06-28 12:45:00",
+		"end_time": "2017-06-28T15:45:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 111,
+		"name": "San Francisco v Miami",
+		"start_time": "2017-07-07 19:15:00",
+		"end_time": "2017-07-07T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 112,
+		"name": "San Francisco v Miami",
+		"start_time": "2017-07-08 19:05:00",
+		"end_time": "2017-07-08T22:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:05"
+	}, {
+		"id": 113,
+		"name": "San Francisco v Miami",
+		"start_time": "2017-07-09 13:05:00",
+		"end_time": "2017-07-09T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 114,
+		"name": "San Francisco v Cleveland",
+		"start_time": "2017-07-17 19:15:00",
+		"end_time": "2017-07-17T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 115,
+		"name": "San Francisco v Cleveland",
+		"start_time": "2017-07-18 19:15:00",
+		"end_time": "2017-07-18T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 116,
+		"name": "San Francisco v Cleveland",
+		"start_time": "2017-07-19 12:45:00",
+		"end_time": "2017-07-19T15:45:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 117,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-07-20 19:15:00",
+		"end_time": "2017-07-20T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 118,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-07-21 19:15:00",
+		"end_time": "2017-07-21T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 119,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-07-22 13:05:00",
+		"end_time": "2017-07-22T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 120,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-07-23 13:05:00",
+		"end_time": "2017-07-23T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 121,
+		"name": "San Francisco v Pittsburgh",
+		"start_time": "2017-07-24 19:15:00",
+		"end_time": "2017-07-24T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 122,
+		"name": "San Francisco v Pittsburgh",
+		"start_time": "2017-07-25 19:15:00",
+		"end_time": "2017-07-25T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 123,
+		"name": "San Francisco v Pittsburgh",
+		"start_time": "2017-07-26 12:45:00",
+		"end_time": "2017-07-26T15:45:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 124,
+		"name": "San Francisco v Oakland",
+		"start_time": "2017-08-02 19:15:00",
+		"end_time": "2017-08-02T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 125,
+		"name": "San Francisco v Oakland",
+		"start_time": "2017-08-03 19:15:00",
+		"end_time": "2017-08-03T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 126,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-08-04 19:15:00",
+		"end_time": "2017-08-04T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 127,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-08-05 18:05:00",
+		"end_time": "2017-08-05T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 128,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-08-06 13:05:00",
+		"end_time": "2017-08-06T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 129,
+		"name": "San Francisco v Chicago Cubs",
+		"start_time": "2017-08-07 19:15:00",
+		"end_time": "2017-08-07T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 130,
+		"name": "San Francisco v Chicago Cubs",
+		"start_time": "2017-08-08 19:15:00",
+		"end_time": "2017-08-08T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 131,
+		"name": "San Francisco v Chicago Cubs",
+		"start_time": "2017-08-09 12:45:00",
+		"end_time": "2017-08-09T15:45:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 132,
+		"name": "San Francisco v Philadelphia",
+		"start_time": "2017-08-17 19:15:00",
+		"end_time": "2017-08-17T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 133,
+		"name": "San Francisco v Philadelphia",
+		"start_time": "2017-08-18 19:15:00",
+		"end_time": "2017-08-18T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 134,
+		"name": "San Francisco v Philadelphia",
+		"start_time": "2017-08-19 18:05:00",
+		"end_time": "2017-08-19T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 135,
+		"name": "San Francisco v Philadelphia",
+		"start_time": "2017-08-20 13:05:00",
+		"end_time": "2017-08-20T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 136,
+		"name": "San Francisco v Milwaukee",
+		"start_time": "2017-08-21 19:15:00",
+		"end_time": "2017-08-21T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 137,
+		"name": "San Francisco v Milwaukee",
+		"start_time": "2017-08-22 19:15:00",
+		"end_time": "2017-08-22T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 138,
+		"name": "San Francisco v Milwaukee",
+		"start_time": "2017-08-23 12:45:00",
+		"end_time": "2017-08-23T15:45:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 139,
+		"name": "San Francisco v St. Louis",
+		"start_time": "2017-08-31 19:15:00",
+		"end_time": "2017-08-31T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 140,
+		"name": "San Francisco v St. Louis",
+		"start_time": "2017-09-01 19:15:00",
+		"end_time": "2017-09-01T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 141,
+		"name": "San Francisco v St. Louis",
+		"start_time": "2017-09-02 13:05:00",
+		"end_time": "2017-09-02T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 142,
+		"name": "San Francisco v St. Louis",
+		"start_time": "2017-09-03 13:05:00",
+		"end_time": "2017-09-03T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 143,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-09-11 19:15:00",
+		"end_time": "2017-09-11T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 144,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-09-12 19:15:00",
+		"end_time": "2017-09-12T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 145,
+		"name": "San Francisco v LA Dodgers",
+		"start_time": "2017-09-13 19:15:00",
+		"end_time": "2017-09-13T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 146,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-09-15 19:15:00",
+		"end_time": "2017-09-15T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 147,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-09-16 18:05:00",
+		"end_time": "2017-09-16T21:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 6:05"
+	}, {
+		"id": 148,
+		"name": "San Francisco v Arizona",
+		"start_time": "2017-09-17 13:05:00",
+		"end_time": "2017-09-17T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 149,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-09-19 19:15:00",
+		"end_time": "2017-09-19T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 150,
+		"name": "San Francisco v Colorado",
+		"start_time": "2017-09-20 12:45:00",
+		"end_time": "2017-09-20T15:45:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:45"
+	}, {
+		"id": 151,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-09-29 19:15:00",
+		"end_time": "2017-09-29T22:15:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 7:15"
+	}, {
+		"id": 152,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-09-30 13:05:00",
+		"end_time": "2017-09-30T16:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": " 1:05"
+	}, {
+		"id": 153,
+		"name": "San Francisco v San Diego",
+		"start_time": "2017-10-01 12:05:00",
+		"end_time": "2017-10-01T15:05:00+00:00",
+		"started": false,
+		"triggers": null,
+		"standard_start_time": "12:05"
+	}
 ]

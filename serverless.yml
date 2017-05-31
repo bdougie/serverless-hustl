@@ -1,4 +1,4 @@
-service: hustln-db
+service: slshustl
 
 provider:
   name: aws
@@ -7,7 +7,7 @@ provider:
     - Effect: "Allow"
       Action:
         - "dynamodb:*"
-      Resource: "arn:aws:dynamodb:*:*:table/hustlindb"
+      Resource: "arn:aws:dynamodb:*:*:table/slshustl"
 
 functions:
   hello:
@@ -21,11 +21,12 @@ functions:
     handler: handler.seed
     description: seed dynanomodb table with baseball games
     events:
+      - stream: 
       - http:
           path: seed
           method: post
-  getEvents:
-    handler: handler.getEvents
+  getHomeGames:
+    handler: handler.getHomeGames
     description: read dynanomodb table of baseball games
     events:
       - http:
@@ -48,4 +49,4 @@ resources:
         ProvisionedThroughput:
           ReadCapacityUnits: 1
           WriteCapacityUnits: 1
-        TableName: hustlindb
+        TableName: slshustl

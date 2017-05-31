@@ -1,16 +1,18 @@
 'use strict';
-var AWS = require('aws-sdk');
-var uuid = require('uuid');
+const AWS = require('aws-sdk');
+AWS.config.update({region: 'us-east-1'});
 
-var fs = require('fs');
-var contents = fs.readFileSync("baseball.json");
-var baseballs = JSON.parse(contents)
+const uuid = require('uuid');
+
+const fs = require('fs');
+const contents = fs.readFileSync("baseball.json");
+const baseballs = JSON.parse(contents)
 
 module.exports.hello = (event, context, callback) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'There is a game today - San Francisco v LA Dodgers at 715',
+      message: 'This is working and everything should be A OK 200 ;)',
     }),
   };
 
@@ -18,16 +20,20 @@ module.exports.hello = (event, context, callback) => {
 };
 
 module.exports.seed = (event, context, callback) => {
-  var docClient = new AWS.DynamoDB.DocumentClient();
+  const docClient = new AWS.DynamoDB.DocumentClient();
 
   baseballs.forEach(function(data) {
-    var Item = {
-      id: data.id,
-      game: data.opponent,
-      start_time: data.time
+    const {name, start_time, end_time, started, standard_start_time} = data;
+    const item = {
+      id: `${data.id}`,
+      name,
+      start_time,
+      end_time,
+      started: `${started}`,
+      standard_start_time
     };
 
-    docClient.put({TableName: 'hustlndb', Item: Item}, (err) => {
+    docClient.put({TableName: 'slshustl', Item: item}, (err) => {
       if (err) {
         callback(err);
       }
@@ -41,13 +47,10 @@ module.exports.seed = (event, context, callback) => {
   })
 }
 
-
-module.exports.getEvents = (event, context, callback) => {
-  var docClient = new AWS.DynamoDB.DocumentClient();
-  var params = {
-    TableName: 'hustlndb',
-    FilterExpression : 'game = :game_name',
-    ExpressionAttributeValues : {':game_name' : event.query.game}
+module.exports.getHomeGames = (event, context, callback) => {
+  const docClient = new AWS.DynamoDB.DocumentClient();
+  const params = {
+    TableName: 'slshustl'
   }
 
   docClient.scan(params, (err, data) => {
@@ -55,12 +58,6 @@ module.exports.getEvents = (event, context, callback) => {
       callback(err);
     }
 
-    var sum = data.Items.reduce((accumulated, current) => {
-      return accumulated + current.rating}
-    , 0);
-
-    var average = sum/data.Items.length;
-
-    callback(null, { averageRating: average });
+    callback(null, { homeGames:  data.Items });
   });
 }
