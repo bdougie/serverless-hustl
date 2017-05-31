@@ -25,15 +25,15 @@ functions:
       - http:
           path: seed
           method: post
-  getHomeGames:
-    handler: handler.getHomeGames
+  games:
+    handler: handler.games
     description: fetch all home games for baseball
     events:
       - http:
           path: games
           method: get
-  isBaseballToday:
-    handler: handler.isBaseballToday
+  today:
+    handler: handler.today
     description: return just baseball games today
     events:
       - http:
@@ -54,6 +54,6 @@ resources:
             AttributeName: id
             KeyType: HASH
         ProvisionedThroughput:
-          ReadCapacityUnits: 1
+          ReadCapacityUnits: 5
           WriteCapacityUnits: 1
         TableName: slshustl

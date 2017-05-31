@@ -2,12 +2,10 @@
 const AWS = require('aws-sdk');
 AWS.config.update({region: 'us-east-1'});
 
-const uuid = require('uuid');
-
 const fs = require('fs');
 const contents = fs.readFileSync("baseball.json");
 const baseballs = JSON.parse(contents)
-const docClient = new AWS.DynamoDB.DocumentClient();
+const dynamodb = new AWS.DynamoDB.DocumentClient();
 
 module.exports.hello = (event, context, callback) => {
   const response = {
@@ -21,7 +19,7 @@ module.exports.hello = (event, context, callback) => {
 };
 
 module.exports.seed = (event, context, callback) => {
-  baseballs.forEach(function(data) {
+  baseballs.forEach((data) => {
     const {name, start_time, end_time, started, standard_start_time} = data;
     const item = {
       id: `${data.id}`,
@@ -32,7 +30,7 @@ module.exports.seed = (event, context, callback) => {
       standard_start_time
     };
 
-    docClient.put({TableName: 'slshustl', Item: item}, (err) => {
+    dynamodb.put({TableName: 'slshustl', Item: item}, (err) => {
       if (err) {
         callback(err);
       }
@@ -46,33 +44,50 @@ module.exports.seed = (event, context, callback) => {
   })
 }
 
-module.exports.getHomeGames = (event, context, callback) => {
+module.exports.games = (event, context, callback) => {
   const params = {
     TableName: 'slshustl'
   }
 
-  docClient.scan(params, (err, data) => {
+  dynamodb.scan(params, (err, data) => {
     if (err) {
       callback(err);
     }
 
-    callback(null, { count: data.Items.length, homeGames: data.Items });
+    callback(null, {
+      statusCode: 200,
+      headers: {
+        "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
+        "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS 
+      },
+      count: data.Items.length,
+      data: data.Items
+
+    });
   });
 }
 
-module.exports.isBaseballToday = (event, context, callback) => {
+module.exports.today = (event, context, callback) => {
   const params = {
     TableName: 'slshustl'
   }
 
-  docClient.scan(params, (err, data) => {
+  dynamodb.scan(params, (err, data) => {
 
     if (err) {
       callback(err);
     }
 
     const todaysGames = data.Items.filter(isToday)
-    callback(null, { todaysGameCount: todaysGames.length, today: todaysGames });
+    callback(null, {
+      statusCode: 200,
+      headers: {
+        "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
+        "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS 
+      },
+      todaysGameCount: todaysGames.length,
+      data: todaysGames,
+    });
   });
 
   function isToday(game) {
