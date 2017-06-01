@@ -22,11 +22,9 @@ functions:
     handler: handler.seed
     description: seed dynanomodb table with baseball games
     events:
-      - stream: 
       - http:
           path: seed
           method: post
-          cors: true
   games:
     handler: handler.games
     description: fetch all home games for baseball

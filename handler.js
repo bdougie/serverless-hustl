@@ -3,7 +3,7 @@ const AWS = require('aws-sdk');
 AWS.config.update({region: 'us-east-1'});
 
 const fs = require('fs');
-const contents = fs.readFileSync("baseball.json");
+const contents = fs.readFileSync("./baseball.json");
 const baseballs = JSON.parse(contents)
 const dynamodb = new AWS.DynamoDB.DocumentClient();
 const headers = {
@@ -61,8 +61,10 @@ module.exports.games = (event, context, callback) => {
     const response = {
       statusCode: 200,
       headers,
-      count: data.Items.length,
-      body: data.Items
+      body: JSON.stringify({
+        data: data.Items,
+        count: data.Items.length,
+      })
     };
 
     callback(null, response);
@@ -75,7 +77,6 @@ module.exports.today = (event, context, callback) => {
   }
 
   dynamodb.scan(params, (err, data) => {
-
     if (err) {
       callback(err);
     }
@@ -84,8 +85,10 @@ module.exports.today = (event, context, callback) => {
     const response = {
       statusCode: 200,
       headers,
-      todaysGameCount: todaysGames.length,
-      body: todaysGames
+      body: JSON.stringify({
+        count: todaysGames.length,
+        data: todaysGames
+      })
     };
 
     callback(null, response);
