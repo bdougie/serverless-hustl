@@ -17,6 +17,7 @@ functions:
       - http:
           path: hello
           method: get
+          cors: true
   seed:
     handler: handler.seed
     description: seed dynanomodb table with baseball games
@@ -25,6 +26,7 @@ functions:
       - http:
           path: seed
           method: post
+          cors: true
   games:
     handler: handler.games
     description: fetch all home games for baseball
@@ -32,6 +34,7 @@ functions:
       - http:
           path: games
           method: get
+          cors: true
   today:
     handler: handler.today
     description: return just baseball games today
@@ -39,6 +42,7 @@ functions:
       - http:
           path: today
           method: get
+          cors: true
 
 resources:
   Resources:

@@ -6,6 +6,10 @@ const fs = require('fs');
 const contents = fs.readFileSync("baseball.json");
 const baseballs = JSON.parse(contents)
 const dynamodb = new AWS.DynamoDB.DocumentClient();
+const headers = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Credentials': true,
+};
 
 module.exports.hello = (event, context, callback) => {
   const response = {
@@ -36,9 +40,7 @@ module.exports.seed = (event, context, callback) => {
       }
       const response = {
         statusCode: 201,
-        headers: {
-          'Access-Control-Allow-Origin': '*'
-        },
+        headers,
       }
 
       callback(null, response);
@@ -58,10 +60,7 @@ module.exports.games = (event, context, callback) => {
 
     const response = {
       statusCode: 200,
-      headers: {
-        "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
-        "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS 
-      },
+      headers,
       count: data.Items.length,
       body: data.Items
     };
@@ -73,8 +72,6 @@ module.exports.games = (event, context, callback) => {
 module.exports.today = (event, context, callback) => {
   const params = {
     TableName: 'slshustl',
-    FilterExpression : 'started = :started',
-    ExpressionAttributeValues : {':started' : 'false'}
   }
 
   dynamodb.scan(params, (err, data) => {
@@ -86,10 +83,7 @@ module.exports.today = (event, context, callback) => {
     const todaysGames = data.Items.filter(isToday)
     const response = {
       statusCode: 200,
-      headers: {
-        "Access-Control-Allow-Origin" : "*", // Required for CORS support to work
-        "Access-Control-Allow-Credentials" : true // Required for cookies, authorization headers with HTTPS 
-      },
+      headers,
       todaysGameCount: todaysGames.length,
       body: todaysGames
     };
